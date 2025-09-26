@@ -48,6 +48,10 @@ src: ./pages/why-agencies/03-key-advantages.md
 src: ./pages/why-agencies/04-david-hart-matrix.md
 ---
 
+---
+src: ./pages/tech-partner/00-intro.md
+---
+
 # What You Lack: Tech & Product Experience
 
 ---
