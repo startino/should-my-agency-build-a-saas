@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "cloudflare-docs": {
+      "type": "sse",
+      "url": "https://docs.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "cloudflare-bindings": {
+      "type": "sse",
+      "url": "https://bindings.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "cloudflare-builds": {
+      "type": "sse",
+      "url": "https://builds.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "cloudflare-observability": {
+      "type": "sse",
+      "url": "https://observability.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "cloudflare-radar": {
+      "type": "sse",
+      "url": "https://radar.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "cloudflare-browser": {
+      "type": "sse",
+      "url": "https://browser.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "cloudflare-logs": {
+      "type": "sse",
+      "url": "https://logs.mcp.cloudflare.com/sse",
+      "tools": ["*"]
+    },
+    "vercel": {
+      "url": "https://mcp.vercel.com"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+/* Custom CSS variables for color scheme */
+:root {
+  /* Primary color - Eucalyptus */
+  --primary: #45dfa4;
+  --primary-dark: #3bc893;
+  --primary-light: #5ce5b1;
+
+  /* Accent color - Lavender Pink */
+  --accent: #ffafd3;
+  --accent-dark: #ff9cc9;
+  --accent-light: #ffc2dd;
+
+  /* Supporting colors */
+  --background: #1a1a1a;
+  --text: #ffffff;
+  --text-light: #e2e8f0;
+  --border: #374151;
+}
+
+
+
+/* Links and interactive elements */
+a {
+  color: var(--accent) !important;
+}
+
+a:hover {
+  color: var(--accent-dark) !important;
+}
+
+/* Button styling */
+.btn,
+button {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border-color: var(--primary) !important;
+}
+
+.btn:hover,
+button:hover {
+  background-color: var(--primary-dark) !important;
+  border-color: var(--primary-dark) !important;
+}
+
+/* Accent elements */
+.text-accent,
+.accent {
+  color: var(--accent) !important;
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.border-accent {
+  border-color: var(--accent) !important;
+}
+
+/* Primary elements */
+.text-primary,
+.primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
+/* Ensure numbered lists are visible */
+ol {
+  list-style-type: decimal !important;
+  padding-left: 1.5em !important;
+}
+
+ol li {
+  list-style-type: decimal !important;
+}
+
+/* Ensure list numbers are visible in all contexts */
+.slidev-layout ol {
+  list-style-type: decimal !important;
+}
+
+.slidev-layout ul {
+  list-style-type: disc !important;
+}

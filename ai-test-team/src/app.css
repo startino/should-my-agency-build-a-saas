@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#svelte {
+  height: 100%;
+}
+
+@layer base {
+  :root {
+    /* Eucalyptus / Teal spectrum */
+    --glow-eucalyptus: 165 60% 52%; /* ~emerald */
+    --glow-teal: 180 60% 45%;
+    --glow-cyan: 190 90% 52%;
+    --text-strong: 0 0% 100%;
+    --text-muted: 0 0% 90%;
+  }
+
+  body {
+    @apply bg-black text-white font-sans antialiased;
+  }
+}
+
+/* Clamp readable measure: 40–70ch */
+.prose-measure {
+  max-width: clamp(40ch, 70ch, 90vw);
+}

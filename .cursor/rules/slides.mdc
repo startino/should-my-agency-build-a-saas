@@ -1,0 +1,6 @@
+---
+alwaysApply: false
+---
+slides.md files are just for the content. They are not directly parsed into the website's content. If you want to change the website's content, you need to edit the respective svelte files.
+
+saas-for-agencies has its own repo. the root folder should not be used for git.
